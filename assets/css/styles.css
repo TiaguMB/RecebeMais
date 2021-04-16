@@ -73,6 +73,7 @@ header a {
    color: var(--white);
    border-radius: 7px;
    font-weight: 600;
+   text-decoration: none;
    box-shadow: 10px 15px 20px rgba(26, 230, 144, 0.2);
 }
 
@@ -141,13 +142,16 @@ header .acoes--saber-mais {
    padding: 15px 2px 15px 20px;
 }
 
-section {
+main.container {
    padding-top: 250px;
+}
+
+.section--informacoes1 {
    display: grid;
    grid-template-columns: 1fr 1fr;
 }
 
-section h2 {
+.section--informacoes1 h2 {
    font-family: 'Poppins', sans-serif;
    font-size: 2.1875em;
    font-weight: 600;
@@ -155,31 +159,75 @@ section h2 {
    margin: 0;
 }
 
-section .pros {
+.section--informacoes1 h3 {
+   font-size: 1.25em;
+   margin-top: 30px;
+   line-height: 1.875rem;
+   color: var(--gray03);
+   font-weight: 400;
+}
+
+.section--informacoes1 .pros {
    display: grid;
    grid-template-columns: 1fr 1fr;
    gap: 50px 60px;
 }
 
-section h3, section p {
-   margin: 0;
-   font-weight: 400;
-}
-
-section h3 {
-   font-size: 1.25em;
-   margin-top: 30px;
-   line-height: 1.875rem;
-   color: var(--gray03);
-}
-
-section .pros div {
+.section--informacoes1 .pros div {
    display: flex;
    gap: 25px;
    flex-direction: row;
    font-family: 'Poppins', sans-serif;
    font-size: 	1.25em;
    columns: var(--gray01);
+}
+
+.section--informacoes1 img {
+   width: 60px;
+}
+
+.section--informacoes1 h4 {
+   margin: 0;
+   font-weight: 500;
+   color: var(--gray01);
+}
+
+.section--informacoes2 {
+   margin-top: 160px;
+   display: grid;
+   gap: 180px;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section--informacoes2 img {
+   width: 35px;
+   height: 35px;
+}
+
+.section--informacoes2 h3 {
+   font-family: 'Poppins', sans-serif;
+   font-size: 1.25rem;
+   color: var(--gray01);
+   font-weight: 500;
+}
+
+.section--informacoes2 p {
+   font-size: 1.125rem;
+   font-weight: 500;
+}
+
+.section--informacoes3 {
+   text-align: center;
+}
+
+.section--informacoes3 h3 {
+   margin: 151px 205px 60px;
+   font-size: 1.5625rem;
+   font-weight: 400;
+}
+
+.section--informacoes3 a {
+   font-weight: 600;
 }
 
 .sombra {
