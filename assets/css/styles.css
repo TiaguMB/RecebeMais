@@ -590,19 +590,11 @@ main.container {
    justify-content: space-between;
 }
 
-.items--pergunta h4, .items--pergunta summary {
+.items--pergunta h4 {
    color: var(--gray03);
    font-size: 1.25rem;
    font-weight: 600;
    margin: 0;
-}
-
-.items--pergunta summary:focus {
-   outline: none;
-}
-
-summary::-webkit-details-marker {
-   display: none;
 }
 
 .bg-branco {
