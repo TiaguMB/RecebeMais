@@ -551,3 +551,74 @@ main.container {
    text-align: center;
    box-shadow: 10px 15px 20px rgba(4, 28, 67, 0.2);
 }
+
+.duvidas-frequentes {
+   background-color: var(--white);
+   padding: 0 65px 130px;
+}
+
+.duvidas-frequentes--quadrado {
+   background-color: var(--gray-light02);
+   border-radius: 20px;
+}
+
+.duvidas-frequentes--quadrado h3 {
+   font-family: 'Poppins', sans-serif;
+   font-size: 2.1875rem;
+   font-weight: 600;
+   text-align: center;
+   padding: 150px 250px 60px;
+   margin: 0;
+}
+
+.quadrado--items {
+   margin: 0 104px;
+   border-radius: 10px;
+   display: grid;
+   gap: 30px;
+   padding-bottom: 150px;
+}
+
+.items--pergunta {
+   background-color: var(--white);
+   padding: 18px 32px;
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.items--pergunta h4 {
+   color: var(--gray03);
+   font-size: 1.25rem;
+   font-weight: 600;
+   margin: 0;
+}
+
+.bg-branco {
+   background-color: var(--white);
+}
+
+footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 100px;
+}
+
+footer a {
+   text-decoration: none;
+   font-size: 0.9375rem;
+   color: var(--gray03);
+}
+
+footer .juntinhos {
+   display: flex;
+   flex-direction: row;
+   gap: 25px;
+}
+
+footer .juntinhos a {
+   display: block;
+}
