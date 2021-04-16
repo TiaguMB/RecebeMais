@@ -386,6 +386,7 @@ main.container {
    grid-template-columns: repeat(3, 1fr);
    gap: 33px;
    padding-top: 44px;
+   padding-bottom: 75px;
    padding-left: 50px;
    padding-right: 50px;
 }
@@ -519,6 +520,35 @@ main.container {
 
 .lista--item p {
    margin: 0;
+}
+
+.solucao-personalizada {
+   width: 625px;
+   margin: 0 auto;
+   padding-bottom: 150px;
+}
+
+.solucao-personalizada h3 {
+   font-size: 1.5625rem;
+   font-weight: 400;
+   color: var(--gray01);
+   text-align: center;
+   margin: 0;
+}
+
+.solucao-personalizada a {
+   display: block;
+   width: 250px;
+   margin: 0 auto;
+   border-radius: 7px;
+   padding: 17px 45px;
+   background-color: var(--gray01);
+   color: var(--white);
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+   font-weight: 600;
+   margin-top: 60px;
+   text-align: center;
 }
 
 .sombra {
