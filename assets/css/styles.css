@@ -1,0 +1,146 @@
+:root {
+   --green: #17CF81;
+   --green-dark: #10A372;
+   --green-light: #A2F6B9;
+   --blue-dark: #095FAA;
+   --blue: #0B79DA;
+   --blue-light: #86BEF9;
+   --gray01: #041C43;
+   --gray02: #293A56;
+   --gray04: #94A2B8;
+   --gray-light01: #EDF3F8;
+   --gray-light02: #F8FAFD;
+   --white: #FFFFFF;
+   --gray00: #03132E;
+   --green-light02: #D0FBDC;
+   --gray03: #576275;
+}
+
+header {
+   background-color: var(--gray-light01);
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+.bg-container {
+   background-image: url(../img/foto-topo-home-recebe-mais.png);
+   background-repeat: no-repeat;
+   background-size: 100% auto;
+   background-size: 1440px 793px;
+   max-width: 1440px;
+   margin: 0 auto;
+   padding-top: 60px;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+header nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+header ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+header nav ul {
+   display: flex;
+   gap: 35px;
+   align-items: center;
+   flex-flow: row;
+}
+
+header a {
+   color: var(--gray03);
+   text-decoration: none;
+}
+
+.btn-login {
+   padding: 10px 25px;
+   border: 1px solid var(--gray01);
+   color: var(--gray01);
+   border-radius: 7px;
+   font-weight: 600;
+}
+
+.btn-verde {
+   padding: 10px 25px;
+   background-color: var(--green);
+   color: var(--white);
+   border-radius: 7px;
+   font-weight: 600;
+   box-shadow: 10px 15px 20px rgba(26, 230, 144, 0.2);
+}
+
+header h1 {
+   margin-top: 95px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   font-size: 3.5em;
+   color: var(--gray01);
+}
+
+header p {
+   color: var(--gray03);
+   font-size: 1.25em;
+   margin-top: 30px;
+}
+
+header .informacoes {
+   margin-top: 30px;
+}
+
+header .informacoes ul, header .informacoes li {
+   display: flex;
+   flex-direction: row;
+   gap: 12px;
+}
+
+header .informacoes ul {
+   gap: 50px;
+}
+
+header .informacoes li p {
+   margin: 0;
+}
+
+header .info--span {
+   color: var(--green);
+   font-weight: 900;
+}
+
+header .acoes {
+   color: var(--gray01);
+   margin-top: 40px;
+   padding-bottom: 175px;
+}
+
+header .acoes ul {
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+}
+header .acoes ul li {
+   display: flex;
+   align-items: center;
+}
+
+header .acoes .seta-baixo {
+   margin-left: 10px;
+}
+
+header .acoes ul a {
+   display: flex;
+}
+
+header .acoes--saber-mais {
+   padding: 15px 2px 15px 20px;
+}
+
+.sombra {
+   box-shadow: 10px 15px 20px rgba(4, 28, 67, 0.2);
+}
