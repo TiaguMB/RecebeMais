@@ -26,9 +26,12 @@ body {
    background-image: url(../img/foto-topo-home-recebe-mais.png);
    background-repeat: no-repeat;
    background-size: 100% auto;
+   padding-top: 60px;
+}
+
+.big-container {
    max-width: 1440px;
    margin: 0 auto;
-   padding-top: 60px;
 }
 
 .container {
@@ -358,6 +361,164 @@ main.container {
    border-radius: 7px;
    text-decoration: none;
    color: var(--gray01);
+}
+
+.bg-curva-branca {
+   border-top-left-radius: 500px 300px;
+   margin-top: 135px;
+   background-color: var(--white);
+}
+
+.planos h2 {
+   margin: 0;
+   padding: 0 330px;
+   padding-top: 160px;
+   padding-bottom: 80px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   font-size: 2.1875rem;
+   color: var(--gray01);
+   text-align: center;
+}
+
+.planos--precos {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 33px;
+   padding-top: 44px;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+.planos--precos h3 {
+   margin: 0;
+}
+
+.item--botao {
+   display: block;
+   padding: 11px 0;
+   background-color: #D0FBDC;
+   border: 2px solid var(--green-light);
+   border-radius: 10px 10px 0 0;
+   text-align: center;
+   text-decoration: none;
+   color: var(--green-dark);
+   font-family: 'Poppins', sans-serif;
+   margin-top: -44px;
+   font-weight: 600;
+}
+
+.item--bloco {
+   border-radius: 10px;
+   border: 2px solid var(--gray-light01);
+}
+
+.bloco--plano {
+   padding: 50px 40px 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: start;
+}
+
+.bloco--plano h3 {
+   font-family: 'Poppins', sans-serif;
+   font-size: 1.5625rem;
+   color: var(--gray01);
+   font-weight: 600;
+}
+
+.bloco--plano p {
+   font-weight: 400;
+   color: var(--gray03);
+   font-size: 1.125rem;
+   margin: 9px 0 0;
+}
+
+.item--bloco.botao {
+   border-top: none;
+   border-radius: 0 0 10px 10px;
+}
+
+.bloco--retangulo {
+   width: 100%;
+   height: 170px;
+   background-color: var(--gray-light01);
+}
+
+.bloco--pagamento {
+   padding: 35px 45px 45px;
+}
+
+.pagamento--preco {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   font-family: 'Poppins', sans-serif;
+}
+
+.pagamento--preco {
+   font-weight: 500;
+   font-size: 1.25rem;
+}
+
+.preco--valor, .preco--cents {
+   color: var(--gray02);
+}
+
+.preco--cifrao, .preco--frequencia {
+   color: var(--gray03);
+}
+
+.preco--cifrao {
+   font-size: 1.25rem;
+}
+
+.preco--valor {
+   font-size: 3.4375rem;
+}
+
+.preco--cents {
+   font-size: 1.25rem;
+   font-weight: 600;
+}
+
+.preco--frequencia {
+   font-size: 0.9375rem;
+   font-weight: 500;
+}
+
+.pagamento--descricao {
+   font-size: 0.9375rem;
+   color: var(--gray03);
+   font-weight: 400;
+   margin: 22px 0 0;
+}
+
+.pagamento--botao {
+   margin-top: 33px;
+   padding: 18px;
+   text-align: center;
+   display: block;
+}
+
+.pagamento--lista {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   padding-top: 42px;
+   padding-left: 0;
+}
+
+.lista--item {
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   gap: 12px;
+}
+
+.lista--item p {
+   margin: 0;
 }
 
 .sombra {
