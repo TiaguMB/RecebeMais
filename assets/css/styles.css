@@ -228,6 +228,136 @@ main.container {
 
 .section--informacoes3 a {
    font-weight: 600;
+   display: inline-block;
+}
+
+.section--produto {
+   box-sizing: border-box;
+   margin-top: 150px;
+   padding: 0 50px;
+}
+
+.funcionalidades--principais h2 {
+   margin: 0 290px;
+   color: var(--gray01);
+   font-family: 'Poppins', sans-serif;
+   font-size: 2.1875rem;
+   font-weight: 600;
+   padding: 150px 0 125px;
+   font-size: 2.1875rem;
+   font-weight: 600;
+   text-align: center;
+}
+
+.produto--funcionalidades {
+   background-color: #fff;
+   border-radius: 20px;
+}
+
+.funcionalidades--principais {
+   border-bottom: 2px solid var(--gray-light01);
+}
+
+.principais--item {
+   display: flex;
+   margin: 0 -50px;
+   flex-direction: row;
+   gap: 130px;
+   align-items: center;
+   padding-bottom: 150px;
+}
+
+.principais--item:nth-child(2n) {
+   justify-content: flex-end;
+}
+
+.principais--item .azul {
+   width: 555px;
+   height: 410px;
+   border-radius: 10px;
+   background-color: var(--gray01);
+}
+
+.principais--item .verde {
+   width: 35px;
+   height: 35px;
+   border-radius: 5px;
+   background-color: var(--green);
+}
+
+.item--descricao {
+   width: 312px;
+}
+
+.item--descricao h3 {
+   margin-top: 18px;
+   font-size: 1.5625rem;
+}
+
+.item--descricao p {
+   margin-top: 15px;
+   font-size: 1.25rem;
+}
+
+.funcionalidades--mais-recursos {
+   font-family: 'Poppins', sans-serif;
+}
+
+.funcionalidades--mais-recursos h3 {
+   margin: 0;
+   padding: 150px 0 75px;
+   font-size: 1.5625rem;
+   font-weight: 600;
+   color: var(--gray01);
+   text-align: center;
+}
+
+.item--row {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   padding-bottom: 55px;
+}
+
+.row--item {
+   width: 180px;
+   font-size: 1.25rem;
+   color: var(--gray01);
+   font-weight: 500;
+}
+
+.item--azul {
+   width: 35px;
+   height: 35px;
+   border-radius: 5px;
+   background-color: var(--gray01);
+}
+
+.funcionalidades--acao {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 105px;
+   background-color: var(--gray01);
+   border-radius: 0 0 20px 20px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.funcionalidades--acao h2 {
+   font-size: 1.875rem;
+   font-weight: 600;
+   color: var(--white);
+   margin: 0;
+}
+
+.funcionalidades--acao a {
+   display: flex;
+   padding: 18px 35px;
+   background-color: var(--white);
+   border-radius: 7px;
+   text-decoration: none;
+   color: var(--gray01);
 }
 
 .sombra {
