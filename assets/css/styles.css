@@ -607,7 +607,7 @@ footer {
    padding-bottom: 100px;
 }
 
-footer a {
+footer a, footer p {
    text-decoration: none;
    font-size: 0.9375rem;
    color: var(--gray03);
