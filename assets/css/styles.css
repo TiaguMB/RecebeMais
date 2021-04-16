@@ -549,8 +549,5 @@ main.container {
    font-weight: 600;
    margin-top: 60px;
    text-align: center;
-}
-
-.sombra {
    box-shadow: 10px 15px 20px rgba(4, 28, 67, 0.2);
 }
